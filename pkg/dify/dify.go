@@ -1,8 +1,9 @@
 package dify
 
 import (
-	"github.com/go-resty/resty/v2"
 	"net/http"
+	"resty.dev/v3"
+	"strconv"
 )
 
 type App struct {
@@ -131,7 +132,11 @@ func (a *App) Messages(req MessagesRequest) (*MessagesResponse, error) {
 func (a *App) Conversations(req ConversationsRequest) (*ConversationsResponse, error) {
 	resp := &ConversationsResponse{}
 	_, err := a.client.R().
-		SetBody(req).
+		SetQueryParams(map[string]string{
+			"last_id": req.LastID,
+			"limit":   strconv.Itoa(req.Limit),
+			"user":    req.User,
+		}).
 		SetResult(resp).
 		Get(apiConversations)
 	return resp, err

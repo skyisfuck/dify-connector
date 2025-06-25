@@ -36,7 +36,7 @@ Other prerequisites:
 You should have Docker and Docker Compose installed on your server.
 
 ```bash
-git clone https://github.com/leslieleung/dify-connector.git
+git clone https://github.com/skyisfuck/dify-connector.git
 docker-compose up -d
 ```
 
@@ -45,7 +45,7 @@ docker-compose up -d
 You should have Docker installed on your server. And you should have a database(MySQL 8.0 is recommended) ready.
 
 ```bash
-docker run -d --name dify-connector -e DATABASE_DSN=<YOUR_DSN> -e BOOTSTRAP_CHANNEL=<YOUR_CHANNEL> leslieleung/dify-connector:latest
+docker run -d --name dify-connector -e DATABASE_DSN=<YOUR_DSN> -e BOOTSTRAP_CHANNEL=<YOUR_CHANNEL> skyisfuck/dify-connector:latest
 ```
 
 ## Commands
@@ -68,7 +68,7 @@ package main
 import (
   "errors"
   "github.com/google/uuid"
-  "github.com/leslieleung/dify-connector/pkg/dify"
+  "github.com/skyisfuck/dify-connector/pkg/dify"
   "io"
 )
 
@@ -101,7 +101,7 @@ package main
 import (
   "errors"
   "github.com/google/uuid"
-  "github.com/leslieleung/dify-connector/pkg/dify"
+  "github.com/skyisfuck/dify-connector/pkg/dify"
   "io"
 )
 

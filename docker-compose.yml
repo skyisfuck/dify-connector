@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   dify-connector:
-#    image: leslieleung/dify-connector:latest
+#    image: skyisfuck/dify-connector:latest
     build: .
     depends_on:
       db:

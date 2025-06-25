@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/bwmarrin/discordgo"
-	"github.com/leslieleung/dify-connector/internal/command"
+	"github.com/skyisfuck/dify-connector/internal/command"
 	"log/slog"
 	"strings"
 	"sync"

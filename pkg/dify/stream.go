@@ -6,9 +6,9 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/go-resty/resty/v2"
 	"io"
 	"net/http"
+	"resty.dev/v3"
 	"strings"
 )
 
@@ -142,8 +142,8 @@ func sendRequestStream[T streamable](req *resty.Request, method, url string) (*s
 	}
 	if resp.StatusCode() != http.StatusOK {
 		// read the response body
-		defer resp.RawBody().Close()
-		body, readErr := io.ReadAll(resp.RawBody())
+		defer resp.Body.Close()
+		body, readErr := io.ReadAll(resp.Body)
 		if readErr != nil {
 			return nil, fmt.Errorf("error, %w", readErr)
 		}
@@ -155,7 +155,7 @@ func sendRequestStream[T streamable](req *resty.Request, method, url string) (*s
 		return nil, fmt.Errorf("error, %s", body)
 	}
 	return &streamReader[T]{
-		reader:         bufio.NewReader(resp.RawBody()),
+		reader:         bufio.NewReader(resp.Body),
 		response:       resp.RawResponse,
 		errAccumulator: NewErrorAccumulator(),
 		unmarshaler:    &JSONUnmarshaler{},

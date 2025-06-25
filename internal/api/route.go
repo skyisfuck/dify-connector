@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 	"github.com/gin-contrib/graceful"
-	"github.com/leslieleung/dify-connector/internal/api/controller"
-	"github.com/leslieleung/dify-connector/internal/api/middleware"
-	"github.com/leslieleung/dify-connector/internal/misc"
+	"github.com/skyisfuck/dify-connector/internal/api/controller"
+	"github.com/skyisfuck/dify-connector/internal/api/middleware"
+	"github.com/skyisfuck/dify-connector/internal/misc"
 	"sync"
 )
 

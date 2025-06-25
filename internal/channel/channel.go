@@ -3,8 +3,8 @@ package channel
 import (
 	"context"
 	"fmt"
-	"github.com/leslieleung/dify-connector/internal/database"
-	"github.com/leslieleung/dify-connector/internal/database/typedef"
+	"github.com/skyisfuck/dify-connector/internal/database"
+	"github.com/skyisfuck/dify-connector/internal/database/typedef"
 	"sync"
 )
 

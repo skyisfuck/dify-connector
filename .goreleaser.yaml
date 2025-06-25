@@ -16,8 +16,8 @@ archives:
         format: zip
 dockers:
   - image_templates:
-      - leslieleung/dify-connector:{{ .Tag }}
-      - leslieleung/dify-connector:latest
+      - skyisfuck/dify-connector:{{ .Tag }}
+      - skyisfuck/dify-connector:latest
     dockerfile: 'release.Dockerfile'
 checksum:
   name_template: 'checksums.txt'

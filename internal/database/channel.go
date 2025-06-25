@@ -2,7 +2,7 @@ package database
 
 import (
 	"context"
-	"github.com/leslieleung/dify-connector/internal/database/typedef"
+	"github.com/skyisfuck/dify-connector/internal/database/typedef"
 )
 
 func CreateChannel(ctx context.Context, channel *typedef.Channel) error {

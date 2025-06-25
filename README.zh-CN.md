@@ -36,7 +36,7 @@ dify-connector 是一个将 [Dify](https://github.com/langgenius/dify) 发布到
 你应该在你的服务器上安装 Docker 和 Docker Compose。
 
 ```bash
-git clone https://github.com/leslieleung/dify-connector.git
+git clone https://github.com/skyisfuck/dify-connector.git
 docker-compose up -d
 ```
 
@@ -45,7 +45,7 @@ docker-compose up -d
 你应该在你的服务器上安装 Docker。并且你应该准备好一个数据库(推荐 MySQL 8.0)。
 
 ```bash
-docker run -d --name dify-connector -e DATABASE_DSN=<YOUR_DSN> -e BOOTSTRAP_CHANNEL=<YOUR_CHANNEL> leslieleung/dify-connector:latest
+docker run -d --name dify-connector -e DATABASE_DSN=<YOUR_DSN> -e BOOTSTRAP_CHANNEL=<YOUR_CHANNEL> skyisfuck/dify-connector:latest
 ```
 
 ## 命令
@@ -68,7 +68,7 @@ package main
 import (
   "errors"
   "github.com/google/uuid"
-  "github.com/leslieleung/dify-connector/pkg/dify"
+  "github.com/skyisfuck/dify-connector/pkg/dify"
   "io"
 )
 
@@ -101,7 +101,7 @@ package main
 import (
   "errors"
   "github.com/google/uuid"
-  "github.com/leslieleung/dify-connector/pkg/dify"
+  "github.com/skyisfuck/dify-connector/pkg/dify"
   "io"
 )
 

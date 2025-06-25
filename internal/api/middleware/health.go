@@ -3,7 +3,7 @@ package middleware
 import (
 	"context"
 	"github.com/gin-contrib/graceful"
-	"github.com/leslieleung/dify-connector/internal/database"
+	"github.com/skyisfuck/dify-connector/internal/database"
 	healthcheck "github.com/tavsec/gin-healthcheck"
 	"github.com/tavsec/gin-healthcheck/checks"
 	healthcheckcfg "github.com/tavsec/gin-healthcheck/config"

@@ -2,9 +2,9 @@ package hub
 
 import (
 	"context"
-	"github.com/leslieleung/dify-connector/internal/api"
-	"github.com/leslieleung/dify-connector/internal/channel"
-	"github.com/leslieleung/dify-connector/internal/command"
+	"github.com/skyisfuck/dify-connector/internal/api"
+	"github.com/skyisfuck/dify-connector/internal/channel"
+	"github.com/skyisfuck/dify-connector/internal/command"
 	"sync"
 )
 

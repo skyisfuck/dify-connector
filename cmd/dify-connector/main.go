@@ -2,11 +2,11 @@ package difyconnector
 
 import (
 	"context"
-	"github.com/leslieleung/dify-connector/internal/bootstrap"
-	"github.com/leslieleung/dify-connector/internal/channel"
-	"github.com/leslieleung/dify-connector/internal/command"
-	"github.com/leslieleung/dify-connector/internal/database"
-	"github.com/leslieleung/dify-connector/internal/hub"
+	"github.com/skyisfuck/dify-connector/internal/bootstrap"
+	"github.com/skyisfuck/dify-connector/internal/channel"
+	"github.com/skyisfuck/dify-connector/internal/command"
+	"github.com/skyisfuck/dify-connector/internal/database"
+	"github.com/skyisfuck/dify-connector/internal/hub"
 	"github.com/spf13/cobra"
 	"os"
 	"os/signal"

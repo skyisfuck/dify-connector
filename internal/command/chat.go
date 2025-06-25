@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 	"github.com/google/uuid"
-	"github.com/leslieleung/dify-connector/internal/database"
-	"github.com/leslieleung/dify-connector/internal/database/typedef"
-	"github.com/leslieleung/dify-connector/pkg/dify"
+	"github.com/skyisfuck/dify-connector/internal/database"
+	"github.com/skyisfuck/dify-connector/internal/database/typedef"
+	"github.com/skyisfuck/dify-connector/pkg/dify"
 )
 
 type ChatCommand struct{}

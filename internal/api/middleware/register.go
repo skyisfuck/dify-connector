@@ -6,7 +6,7 @@ import (
 	"github.com/gin-contrib/requestid"
 	ginzap "github.com/gin-contrib/zap"
 	"github.com/gin-gonic/gin"
-	"github.com/leslieleung/dify-connector/internal/log"
+	"github.com/skyisfuck/dify-connector/internal/log"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"io"

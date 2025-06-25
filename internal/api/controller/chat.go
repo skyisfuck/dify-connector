@@ -3,11 +3,11 @@ package controller
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	"github.com/leslieleung/dify-connector/internal/api/typedef"
-	"github.com/leslieleung/dify-connector/internal/database"
-	db "github.com/leslieleung/dify-connector/internal/database/typedef"
-	"github.com/leslieleung/dify-connector/internal/misc"
-	dify2 "github.com/leslieleung/dify-connector/pkg/dify"
+	"github.com/skyisfuck/dify-connector/internal/api/typedef"
+	"github.com/skyisfuck/dify-connector/internal/database"
+	db "github.com/skyisfuck/dify-connector/internal/database/typedef"
+	"github.com/skyisfuck/dify-connector/internal/misc"
+	dify2 "github.com/skyisfuck/dify-connector/pkg/dify"
 	"net/http"
 	"time"
 )

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/leslieleung/dify-connector/cmd"
+	"github.com/skyisfuck/dify-connector/cmd"
 )
 
 func main() {

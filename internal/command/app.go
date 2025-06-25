@@ -3,8 +3,8 @@ package command
 import (
 	"context"
 	"fmt"
-	"github.com/leslieleung/dify-connector/internal/database"
-	"github.com/leslieleung/dify-connector/internal/database/typedef"
+	"github.com/skyisfuck/dify-connector/internal/database"
+	"github.com/skyisfuck/dify-connector/internal/database/typedef"
 	"github.com/spf13/cast"
 	"log/slog"
 	"strings"

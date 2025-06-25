@@ -4,9 +4,9 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/leslieleung/dify-connector/internal/channel"
-	"github.com/leslieleung/dify-connector/internal/database"
-	"github.com/leslieleung/dify-connector/internal/database/typedef"
+	"github.com/skyisfuck/dify-connector/internal/channel"
+	"github.com/skyisfuck/dify-connector/internal/database"
+	"github.com/skyisfuck/dify-connector/internal/database/typedef"
 	"strings"
 )
 

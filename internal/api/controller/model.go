@@ -2,9 +2,9 @@ package controller
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/leslieleung/dify-connector/internal/api/typedef"
-	"github.com/leslieleung/dify-connector/internal/database"
-	"github.com/leslieleung/dify-connector/internal/misc"
+	"github.com/skyisfuck/dify-connector/internal/api/typedef"
+	"github.com/skyisfuck/dify-connector/internal/database"
+	"github.com/skyisfuck/dify-connector/internal/misc"
 	"net/http"
 )
 

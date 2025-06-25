@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"fmt"
-	difyconnector "github.com/leslieleung/dify-connector/cmd/dify-connector"
+	difyconnector "github.com/skyisfuck/dify-connector/cmd/dify-connector"
 	"github.com/spf13/cobra"
 	"os"
 )
